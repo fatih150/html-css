@@ -1,0 +1,156 @@
+body {
+   font-family: sans-serif;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   list-style: none;
+}
+
+.container {
+   background: url(img/diverse-diversity-equality-1571146.png);
+   height: 100vh;
+   background-size: 100% 100%;
+}
+
+.container .menu {
+   width: 100%;
+   height: 50px;
+   background: rgb(#16a085);
+}
+
+
+
+a {
+   text-decoration: none;
+   color: hotpink;
+}
+a:link {
+   color: red;
+}
+
+
+a:visited {
+   color: green;
+}
+
+
+a:hover {
+   color: darkcyan;
+}
+
+
+a:active {
+   color: blue;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+a:active {
+   text-decoration: underline;
+}
+
+a:link, a:visited {
+   background-color: #16a085;
+   color: white;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+
+
+a:hover, a:active {
+   background-color: 20, 170, 125, 0.89;
+}
+
+ul.menu {
+   background: rgba(20, 170, 125, 0.89);
+   height: 50px;
+   float: right;
+}
+ul.menu >li {
+   float: left;
+   position: relative;
+  
+}
+ul.menu >li >a {
+   display: block;
+   font-size: 14px;
+   color: #fff;
+   padding: 0 15px;
+   line-height: 50px;
+   border-right: 1px solid rgba(0,0,0,.1);
+   }
+   ul.menu ul {
+      background: #1abc9c;
+      width: 200px;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      opacity: 0;
+      transition: 350ms all;
+      visibility: hidden;
+   }
+
+   ul.menu ul li {
+      position: relative;
+   }
+
+
+   ul.menu ul li a {
+      display: block;
+      padding: 7px 12px;
+      color: #fff;
+      font-size: 14px;
+   }
+   ul.menu >li:hover >ul {
+      opacity: 1;
+      visibility: visible;
+      top: 50px;
+   }
+
+   .container ul li a.active,
+   .container ul li a:hover{
+      background: #16806a;
+      border-radius: 2px;
+      transition: 550ms all;
+   }
+
+  
+    ul.menu >li ul ul {
+       top: 0;
+       left: 180px;
+       background-color: #16a084cc;
+    }
+    
+    ul.menu ul li:hover >ul {
+      opacity: 1;
+      visibility: visible;
+      left: 200px;
+    }
+
+    
+
+    
+
+
+
+   
+
+
+
+    
+ 
